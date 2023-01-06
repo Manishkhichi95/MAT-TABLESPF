@@ -1,0 +1,11 @@
+<p *ngIf="shows">angular works!</p>
+<div > 
+    <table *ngIf="shows" class="w3 w3-card-4">
+      <tr>Id:{{diplayElements.id}}</tr>
+     <tr>Year:{{diplayElements.year}}</tr>
+      <tr>Name:{{diplayElements.name}}</tr>
+     <tr>Color:{{diplayElements.color}}</tr> 
+     <tr>Pantone_value:{{diplayElements.pantone_value}}</tr> 
+     <button (click)=" reload()" >Reset</button>
+    </table>
+  

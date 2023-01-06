@@ -1,0 +1,42 @@
+table {
+    width: 100%;
+  }
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  .card{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card2{
+  border:2px solid black;
+border-radius: 5%;
+}
+img{
+  height:150px;
+  width:150px;
+}
+.w3{
+ width:200px;
+ border-top-right-radius:10%;
+ border-bottom-left-radius:10%;
+ margin-top:40px; 
+ display:flex;
+ flex-direction: column;
+ align-items:center;
+}
+button{
+  border-top-right-radius:10%;
+  border-bottom-left-radius:10%;
+  border:1px solid white;
+  color:whitesmoke;
+  background-color: darkgrey;
+  }
+button:hover{
+  background-color:grey;
+}
+tr{
+  border-bottom:1px solid darkgray;
+}
